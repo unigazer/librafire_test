@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Footer from '../src/components/Footer/Footer';
 import Header from '../src/components/Header/Header';
 import Hero from '../src/components/Hero/Hero';
 
@@ -9,6 +10,7 @@ const Home = () => (
         </Head>
         <Header />
         <Hero />
+        <Footer />
     </>
 );
 
