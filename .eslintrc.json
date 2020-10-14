@@ -20,9 +20,10 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent": "off",
         "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
         "react/react-in-jsx-scope": "off",
-        "jsx-quotes": ["error", "prefer-single"]
+        "jsx-quotes": ["error", "prefer-single"],
+        "no-undef": "off"
     }
 }
