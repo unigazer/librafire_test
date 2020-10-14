@@ -1,0 +1,95 @@
+.house__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999999999999999;
+}
+
+.house__image {
+    &>img {
+        width: 491px;
+        height: 327px;
+        border-radius: 1em;
+    }
+}
+
+.house__info {
+    width: 427px;
+    min-height: 212px;
+    box-shadow: 0 8px 18px -5px rgba(0, 0, 0, 8%);
+    border-radius: .5em;
+    padding: 1em 1.5em;
+    position: relative;
+    margin-top: -4.2em;
+    z-index: 999999999;
+
+    &>div:nth-child(1) {
+        min-height: 57px;
+    }
+
+    &>div>p:nth-child(1) {
+        font-size: 16px;
+        font-weight: 777;
+        text-align: left;
+    }
+
+    &>div:nth-child(2)>p {
+        font-size: 14px;
+        font-family: "Lato";
+        color: rgb(124, 130, 140);
+        line-height: 1.429;
+        text-align: left;
+
+        &:before {
+            content: "marker";
+            margin-right: 1em;
+            padding-left: 1em;
+            border-left: 1px solid #dbdbdb;
+        }
+    }
+
+    &>hr {
+        border: none;
+        border-bottom: 1px solid #dbdbdb;
+    }
+}
+
+.house__info__specs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: .5em 0;
+
+    & > div:not(:nth-child(3)) > p {
+        color: #7c828c;
+    }
+
+    & > div > p:nth-child(1) {
+        font-size: 14px;
+        color: #7c828c;
+    }
+
+    & > div > p:nth-child(2) {
+        font-weight: 700;
+    }
+}
+
+.house__info__specs__surface,
+.house__info__specs__rooms,
+.house__info__specs__price {
+    line-height: 1.5em;
+
+    & > p {
+        margin: 0;
+    }
+}
+
+.house__info__specs__rooms {
+    padding: 0 2em;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+
+.house__info__specs__price {
+    padding-left: 1em;
+}
