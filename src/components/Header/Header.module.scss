@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262b33;
+    height: 104px;
+}
+
+.logo {
+    & > img {
+        width: 99px;
+        height: 84px;
+    }
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+
+    & > li > a {
+        color: #fff;
+    }
+}
+
+.blank__rectangle {
+    background-color: #1c2026;
+    height: 301px;
+}
