@@ -1,0 +1,90 @@
+ [{
+         "image": "/house_sample.jpg",
+         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae volutpat metus, nec ullamcorper magna",
+         "address": "Sint-Rochusstraat 6, 2100 Deurne",
+         "specs": {
+             "estateSurface": 1.384,
+             "bedrooms": 14,
+             "price": "€ 2.150.000"
+         }
+     }, {
+         "image": "/house_sample.jpg",
+         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae volutpat metus",
+         "address": "Hendrik Schoofstraat 17, 2960 Brecht",
+         "specs": {
+             "estateSurface": 145,
+             "bedrooms": 2,
+             "price": "€ 299.000"
+         }
+     },
+     {
+         "image": "/house_sample.jpg",
+         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing",
+         "address": "Oude Booischotsebaan 6, 2820 Rijmenam",
+         "specs": {
+             "estateSurface": 145,
+             "bedrooms": "Studio",
+             "price": "Uitverkocht"
+         }
+     },
+     {
+         "image": "/house_sample.jpg",
+         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae volutpat metus",
+         "address": "Oude Booischotsebaan 6, 2820 Rijmenam",
+         "specs": {
+             "estateSurface": 145,
+             "bedrooms": 1,
+             "price": "Prijs op aanvraag"
+         }
+     },
+     {
+         "image": "/house_sample.jpg",
+         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae volutpat metus, nec ullamcorper magna",
+         "address": "Sint-Rochusstraat 6, 2100 Deurne",
+         "specs": {
+             "estateSurface": 1.384,
+             "bedrooms": 14,
+             "price": "€ 2.150.000"
+         }
+     },
+     {
+         "image": "/house_sample.jpg",
+         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae volutpat metus",
+         "address": "Oude Booischotsebaan 6, 2820 Rijmenam",
+         "specs": {
+             "estateSurface": 145,
+             "bedrooms": 1,
+             "price": "Prijs op aanvraag"
+         }
+     },
+     {
+         "image": "/house_sample.jpg",
+         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae volutpat metus, nec ullamcorper magna",
+         "address": "Sint-Rochusstraat 6, 2100 Deurne",
+         "specs": {
+             "estateSurface": 1.384,
+             "bedrooms": 14,
+             "price": "€ 2.150.000"
+         }
+     },
+     {
+         "image": "/house_sample.jpg",
+         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae volutpat metus",
+         "address": "Hendrik Schoofstraat 17, 2960 Brecht",
+         "specs": {
+             "estateSurface": 145,
+             "bedrooms": 2,
+             "price": "€ 299.000"
+         }
+     },
+     {
+         "image": "/house_sample.jpg",
+         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing",
+         "address": "Oude Booischotsebaan 6, 2820 Rijmenam",
+         "specs": {
+             "estateSurface": 145,
+             "bedrooms": "Studio",
+             "price": "Uitverkocht"
+         }
+     }
+ ]
