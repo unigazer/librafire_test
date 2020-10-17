@@ -18,7 +18,6 @@ const Header = () => (
                 </ul>
             </nav>
         </header>
-        <div className={style.blank__rectangle}></div>
     </>
 );
 

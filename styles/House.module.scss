@@ -1,0 +1,111 @@
+.house__header__image {
+  background: url('/house_header.jpg'), rgba(28, 32, 38, 0.9);
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 768px;
+  align-items: center;
+}
+
+.house__header__hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.house__header__hero__left {
+  width: 65%;
+
+  & > div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0.5em 1em;
+    background: rgba(124, 130, 140, 0.397);
+    border-radius: 100px;
+    width: max-content;
+
+    & > p {
+      margin: 0;
+    }
+  }
+
+  img {
+    filter: invert(1);
+  }
+
+  p {
+    color: #fff;
+  }
+
+  & > p:nth-child(1) {
+    font-size: 16px;
+  }
+
+  & > p:nth-child(2) {
+    font-size: 60px;
+  }
+
+  span {
+    color: #fff;
+    font-weight: 700;
+  }
+}
+
+.house__header__hero__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  & > div > p:nth-child(1) {
+    color: #83c056;
+    padding: 0.5em 1em;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    background: #1c2026;
+    border-radius: 100px;
+    box-shadow: 0 0 27.6px 2.4px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.duncan__card {
+  border-radius: 10px;
+  background-color: rgb(124, 130, 140, 0.2);
+  padding: 0 2em;
+  gap: 30px;
+  height: 199px;
+
+  & > img {
+    width: 120px;
+    border-radius: 100px;
+    box-shadow: 0 0 27.6px 2.4px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.duncan__card__info {
+  margin-top: -1.7em;
+
+  & > p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+    padding: 0.5em 3em;
+    border: 1px solid #fff;
+    border-radius: 100px;
+
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+}
+
+.duncan__card__el__container {
+  p {
+    color: #fff;
+  }
+}
