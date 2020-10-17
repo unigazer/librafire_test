@@ -32,15 +32,12 @@
     filter: invert(1);
   }
 
-  p {
+  p,
+  h1 {
     color: #fff;
   }
 
-  & > p:nth-child(1) {
-    font-size: 16px;
-  }
-
-  & > p:nth-child(2) {
+  & > h1 {
     font-size: 60px;
   }
 

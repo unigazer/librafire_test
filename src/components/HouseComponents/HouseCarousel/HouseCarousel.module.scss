@@ -1,0 +1,39 @@
+.carousel__images {
+  gap: 2em;
+  margin-top: -5em;
+  margin-bottom: 5em;
+
+  img {
+    box-shadow: 0 0 27.6px 2.4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+}
+
+.carousel__text {
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    color: #737c8b;
+    line-height: 2;
+
+    &:nth-child(3) {
+      font-size: 25px;
+      font-weight: 300;
+    }
+  }
+}
+
+.carousel__button {
+  margin-bottom: 5em;
+
+  button {
+    background: none;
+    border: 1px solid #000;
+    border-radius: 100px;
+    padding: 0.5em 1em;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
