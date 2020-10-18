@@ -13,13 +13,41 @@ const Header = () => (
             </div>
             <nav className={style.nav}>
                 <ul className={style.ul}>
-                    <li><a href='/' className={style.nav__links}>Lorem ipsum</a></li>
-                    <li><a href='/' className={style.nav__links}>Lorem ipsum</a></li>
-                    <li><a href='/' className={style.nav__links}>Lorem ipsum</a></li>
-                    <li><a href='/' className={style.nav__links}>Lorem ipsum</a></li>
-                    <li><a href='/' className={style.nav__links}>Lorem ipsum</a></li>
-                    <li><a href='/' className={style.nav__links}>Lorem ipsum</a></li>
-                    <li><a href='/' className={style.nav__links}>Lorem ipsum</a></li>
+                    <li>
+                        <Link href='/'>
+                            <a className={style.nav__links}>Lorem ipsum</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/'>
+                            <a className={style.nav__links}>Lorem ipsum</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/'>
+                            <a className={style.nav__links}>Lorem ipsum</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/'>
+                            <a className={style.nav__links}>Lorem ipsum</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/'>
+                            <a className={style.nav__links}>Lorem ipsum</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/'>
+                            <a className={style.nav__links}>Lorem ipsum</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/'>
+                            <a className={style.nav__links}>Lorem ipsum</a>
+                        </Link>
+                    </li>
                 </ul>
             </nav>
         </header>
