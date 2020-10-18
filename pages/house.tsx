@@ -3,6 +3,7 @@ import HouseCarousel from '../src/components/HouseComponents/HouseCarousel/House
 import HouseTabs from '../src/components/HouseComponents/HouseTabs/HouseTabs';
 import HousePlanning from '../src/components/HouseComponents/HousePlanning/HousePlanning';
 import HouseDocuments from '../src/components/HouseComponents/HouseDocuments/HouseDocuments';
+import HouseReference from '../src/components/HouseComponents/HouseReference/HouseReference';
 
 const House: React.FC = () => (
     <main>
@@ -18,6 +19,9 @@ const House: React.FC = () => (
         </section>
         <section id='house_documents'>
             <HouseDocuments />
+        </section>
+        <section id='house_reference'>
+            <HouseReference />
         </section>
     </main>
 );

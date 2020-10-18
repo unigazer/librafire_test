@@ -1,0 +1,57 @@
+.house__reference {
+    padding: 5em 0;
+}
+
+.duncan__card {
+    border-radius: 10px;
+    background-color: #262b33;
+    box-shadow: 0 34px 34px -12px #262b33;
+    padding: 0 2em;
+    gap: 30px;
+    width: 750px;
+    height: 351px;
+
+    &>img {
+        width: 250px;
+        border-radius: 10em;
+        box-shadow: 0 0 27.6px 2.4px rgba(0, 0, 0, 0.4);
+    }
+}
+
+.duncan__card__info {
+    margin-top: -1.7em;
+
+    &>p {
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    a {
+        color: #fff;
+        padding: 0.5em 3em;
+        border: 1px solid #fff;
+        border-radius: 100px;
+
+        &:hover {
+            background-color: #fff;
+            color: #000;
+        }
+    }
+}
+
+.duncan__card__el__container {
+    p {
+        font-size: 18px;
+        color: #fff;
+    }
+}
+
+.house__reference__cards {
+    margin-top: 5em;
+
+    h3 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+}

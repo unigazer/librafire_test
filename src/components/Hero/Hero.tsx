@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 import HouseCard from '../HouseCard/HouseCard';
+import { getData } from '../../../pages/api/requests';
 import styles from './Hero.module.scss';
 
-const Hero: React.FC = () => {
+const Hero: React.FC<{ limit?: number }> = ({ limit }) => {
   type HouseProps = [{
     image?: string,
     desc: string,
@@ -25,38 +26,30 @@ const Hero: React.FC = () => {
     },
   }]);
 
-  const getData = async () => {
-    try {
-      const res = await fetch('/api/getHouses');
-      const json = await res.json();
-      setHouseCard(json);
-    } catch (error) {
-      throw new Error(error);
-    }
-  };
-
   useEffect(() => {
-    getData();
-    return () => {
-      setHouseCard([{
-        image: '',
-        desc: '',
-        address: '',
-        specs: {
-          estateSurface: '',
-          bedrooms: '',
-          price: '',
-        },
-      }]);
-    };
+    (async () => {
+      const json = await getData();
+      setHouseCard(json);
+      return () => {
+        setHouseCard([{
+          image: '',
+          desc: '',
+          address: '',
+          specs: {
+            estateSurface: '',
+            bedrooms: '',
+            price: '',
+          },
+        }]);
+      };
+    })();
   }, []);
 
   return (
     <>
-      <div className={styles.blank__rectangle}></div>
       <main className={styles.main}>
         {
-          houseData.map((value: {
+          houseData.slice(0, limit).map((value: {
             image?: string,
             desc: string,
             address: string,
@@ -72,6 +65,10 @@ const Hero: React.FC = () => {
       </main>
     </>
   );
+};
+
+Hero.defaultProps = {
+  limit: 9,
 };
 
 export default Hero;

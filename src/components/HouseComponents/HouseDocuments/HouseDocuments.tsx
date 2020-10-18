@@ -4,7 +4,7 @@ import styles from './HouseDocuments.module.scss';
 import docs from './documents.json';
 
 const HouseDocuments: React.FC = () => {
-  const [selectedDocument, setSelectedDocument] = useState({ file_name: 'risicokaart Hendrik Schoofsstraat_pdf.pdf', uri: '' });
+  const [selectedDocument, setSelectedDocument] = useState({ file_name: 'Selecteer een bestand om te downloaden', uri: '' });
   const addFocusBorder = (e: MouseEvent | any, file_name: string, uri: string) => {
     e.preventDefault();
     e.target.parentNode.parentNode.style.boxShadow = '0 0 0 2px #83c056';
