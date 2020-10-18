@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import HouseCard from '../HouseCard/HouseCard';
 import { getData } from '../../../pages/api/requests';
 import styles from './Hero.module.scss';
@@ -58,9 +59,13 @@ const Hero: React.FC<{ limit?: number }> = ({ limit }) => {
               bedrooms: number | string,
               price: number | string
             }
-          }) => (
-              <HouseCard house={value} />
-          ))
+          }, index: number) => (
+              <Link href='/house'>
+                <a key={index}>
+                  <HouseCard house={value} />
+                </a>
+              </Link>
+            ))
         }
       </main>
     </>

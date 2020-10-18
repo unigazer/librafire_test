@@ -3,7 +3,9 @@ import Hero from '../src/components/Hero/Hero';
 const Home = () => (
     <>
         <div style={{ backgroundColor: '#1c2026', height: '197px' }} />
-        <Hero />
+        <div style={{ position: 'relative', top: '-5em'}}>
+            <Hero />
+        </div>
     </>
 );
 

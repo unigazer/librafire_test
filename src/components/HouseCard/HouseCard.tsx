@@ -22,7 +22,8 @@ const HouseCard: React.FC<HouseProps> = ({ ...data }: HouseProps) => (
             <div className='house__info__desc'>
                 <p>{data.house.desc}</p>
             </div>
-            <div className='house__info__address'>
+            <div className='house__info__address d-flex align-items-center'>
+                <img src='/icons/place.svg' alt='location'/>
                 <p>{data.house.address}</p>
             </div>
             <hr />
