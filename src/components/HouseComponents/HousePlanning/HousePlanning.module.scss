@@ -1,0 +1,34 @@
+.house__planning {
+  background-color: #1c2026;
+  padding: 5em 0;
+
+  h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  p {
+    color: #fff;
+    margin: 0;
+  }
+
+  ul {
+    padding: 0;
+    line-height: 2;
+  }
+
+  span {
+    color: #737c8b;
+  }
+}
+
+.house__planning__list {
+  margin-top: 5em;
+
+  & > p {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
