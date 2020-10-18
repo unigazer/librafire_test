@@ -12,7 +12,8 @@ const HouseDocuments: React.FC = () => {
   };
   const removeFocusBorder = (e: MouseEvent | any) => {
     e.preventDefault();
-    e.target.parentNode.style.boxShadow = 'none';
+    e.target.parentNode.parentNode.style.boxShadow = 'none';
+    setSelectedDocument({ file_name: 'Selecteer een bestand om te downloaden', uri: '' });
   };
   return (
         <div className={styles.house__documents}>
@@ -26,8 +27,9 @@ const HouseDocuments: React.FC = () => {
                                 docs.map<{ file_name: string, uri: string }>(({ file_name, uri }, index) => (
                                     <li className='d-flex align-items-center gap-xl-10'>
                                         <div>
+                                            {/* It's a bit buggy */}
                                             <a
-                                              href={uri || '#'}
+                                              href={uri}
                                               download={file_name}
                                               tabIndex={index}
                                               onFocus={(e) => addFocusBorder(e, file_name, uri)}
