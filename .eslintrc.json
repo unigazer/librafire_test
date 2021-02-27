@@ -38,6 +38,7 @@
             "prefer-single"
         ],
         "no-undef": "off",
-        "prefer-template": "off"
+        "prefer-template": "off",
+        "camelcase": "off"
     }
 }

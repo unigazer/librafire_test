@@ -1,9 +1,10 @@
+import { AppProps } from 'next/app';
 import Head from 'next/head';
 import Header from '../src/components/Header/Header';
 import Footer from '../src/components/Footer/Footer';
 import '../styles/globals.scss';
 
-const MyApp = ({ Component, pageProps }) => (
+const MyApp = ({ Component, pageProps }: AppProps) => (
     <>
         <Head>
             <title>LibraFire Test</title>
